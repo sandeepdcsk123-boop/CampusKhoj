@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+  <title id="title">CampusKhoj</title>
+  <desc id="desc">CampusKhoj logo in navy blue and gold with a discovery icon and the tagline Find, Explore, Compare, Get Admitted.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8C64A"/>
+      <stop offset="100%" stop-color="#E99A16"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(28 30)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 48 V12 H48 M78 12 H114 V48 M114 78 V114 H78 M48 114 H12 V78" stroke="#101D38" stroke-width="10"/>
+    <circle cx="63" cy="63" r="25" fill="url(#gold)" stroke="#FFFFFF" stroke-width="3"/>
+    <circle cx="63" cy="63" r="34" stroke="#101D38" stroke-width="2" opacity=".16"/>
+  </g>
+  <text x="180" y="113" font-family="Georgia, 'Times New Roman', serif" font-size="91" font-weight="700" letter-spacing="-3"><tspan fill="#101D38">Campus</tspan><tspan fill="url(#gold)">Khoj</tspan></text>
+  <g transform="translate(184 157)" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="3.2">
+    <path d="M0 0 H54" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="70" y="4" fill="#101D38">FIND</text>
+    <path d="M137 -10 V10" stroke="url(#gold)" stroke-width="2"/>
+    <text x="158" y="4" fill="#101D38">EXPLORE</text>
+    <path d="M258 -10 V10" stroke="url(#gold)" stroke-width="2"/>
+    <text x="280" y="4" fill="#101D38">COMPARE</text>
+    <path d="M391 -10 V10" stroke="url(#gold)" stroke-width="2"/>
+    <text x="414" y="4" fill="#101D38">GET ADMITTED</text>
+    <path d="M574 0 H628" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+</svg>
