@@ -1,7 +1,6 @@
-
 import { useEffect, useRef, useState, type FormEvent } from "react";
+
 import {
-  MessageCircle,
   Send,
   X,
   Sparkles,
@@ -14,10 +13,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 
-import {
-  askCampusKhojAI,
-  type ChatMessage,
-} from "./aiService";
+import { askCampusKhojAI, type ChatMessage } from "./aiService";
 
 const LOGO = "/campuskhoj-ai-logo.png";
 
@@ -26,7 +22,8 @@ const suggestions = [
     icon: GraduationCap,
     title: "Find B.Tech Colleges",
     subtitle: "Explore college options",
-    prompt: "Mujhe Greater Noida aur NCR mein B.Tech CSE colleges ke options batao.",
+    prompt:
+      "Mujhe Greater Noida aur NCR mein B.Tech CSE colleges ke options batao.",
   },
   {
     icon: Wallet,
@@ -38,7 +35,8 @@ const suggestions = [
     icon: BookOpen,
     title: "Admission Guidance",
     subtitle: "Understand eligibility",
-    prompt: "B.Tech admission ke liye eligibility aur admission process samjhao.",
+    prompt:
+      "B.Tech admission ke liye eligibility aur admission process samjhao.",
   },
 ];
 
@@ -175,9 +173,7 @@ export default function AIChatWidget() {
         <section
           aria-label="CampusKhoj AI assistant"
           className={`fixed bottom-[100px] right-3 z-[100] flex w-[min(420px,calc(100vw-24px))] flex-col overflow-hidden rounded-[26px] border border-amber-200/70 bg-white shadow-[0_25px_90px_rgba(15,23,42,0.28)] transition-all duration-300 sm:right-5 ${
-            minimized
-              ? "h-[76px]"
-              : "h-[min(680px,calc(100dvh-125px))]"
+            minimized ? "h-[76px]" : "h-[min(680px,calc(100dvh-125px))]"
           }`}
         >
           {/* Premium Header */}
@@ -243,9 +239,7 @@ export default function AIChatWidget() {
                   <div
                     key={`${index}-${message.role}`}
                     className={`flex items-end gap-2 ${
-                      message.role === "user"
-                        ? "justify-end"
-                        : "justify-start"
+                      message.role === "user" ? "justify-end" : "justify-start"
                     }`}
                   >
                     {message.role === "assistant" && (

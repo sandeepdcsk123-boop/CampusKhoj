@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import AICollegeFinder from "../AI/AICollegeFinder";
 import {
@@ -13,7 +12,7 @@ import {
   Sparkles,
   UsersRound,
 } from "lucide-react";
-<AICollegeFinder />
+<AICollegeFinder />;
 import banner1 from "../../assets/Hero/bannar.jpg";
 import banner2 from "../../assets/Hero/bannar2.jpg";
 
@@ -44,8 +43,8 @@ const slides = [
   },
 ];
 
-const WHATSAPP_LINK =
-  "https://wa.me/919450604814?text=Hello%20CampusKhoj%2C%20I%20need%20help%20with%20college%20admission.";
+// const WHATSAPP_LINK =
+//   "https://wa.me/919450604814?text=Hello%20CampusKhoj%2C%20I%20need%20help%20with%20college%20admission.";
 
 export default function Hero() {
   const [active, setActive] = useState(0);
@@ -197,8 +196,7 @@ export default function Hero() {
               </span>
               <span className="text-xs font-semibold leading-5 text-white/90">
                 Greater Noida
-                <br />
-                & NCR
+                <br />& NCR
               </span>
             </div>
 
@@ -384,4 +382,4 @@ export default function Hero() {
     </section>
   );
 }
-''
+("");
